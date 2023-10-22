@@ -14,22 +14,14 @@ $(function(){
 //   메뉴 버튼
 $(function(){
 
-    $('.button').click(function(ev){
-    ev.preventDefault()
+    $('.button').click(function(){
     $('.button span').toggleClass('active');
     $('.over').toggleClass('visible');
     });
 });
 
-//  확인 하고 삭제
-// $(function(){
-//     $('.over .menu li').click(function(e){
-//         e.preventDefault()
-//         $('.menu_sub').toggleClass('active');
-//     })
-// });
 
-// 메뉴 버튼 서브메뉴 기능
+// 메뉴 버튼 안 서브메뉴 기능
 $(function(){
     let tabmenu = $('.over .menu li .menu_text')
         tablist = $('.menu_sub')
