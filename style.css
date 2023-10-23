@@ -576,7 +576,6 @@ footer .footer_wrap {
         visibility: hidden;
         transition: 0.3s;
     }
-    .header_wrap .over .menu {}
     .header_wrap .over .menu li {
         margin: 30px 0;
         opacity: 0;
@@ -584,7 +583,7 @@ footer .footer_wrap {
     .header_wrap .over .menu li .menu_text {
         color: #fff;
         font-size: 1.8rem;
-    }
+    } 
     .header_wrap .over .menu li .menu_text:hover {
         color: #FED42E;
     }
@@ -614,9 +613,11 @@ footer .footer_wrap {
     }
     .header_wrap .over .menu li .menu_sub {
         color: #ccc;
-        display: none;
+        display: flex;
         flex-direction: column;
-        
+    }
+    .header_wrap .over .menu li .menu_sub .sub_text:hover {
+        color: #FED42E;
     }
     .header_wrap .over .menu li .menu_sub .sub_text {
         color: #ccc;
